@@ -1,20 +1,18 @@
-Personal Profile Printer
-
 public class Main {
     public static void main(String[] args) {
 
-        // Reference type variable
+      
         String fullName = "Janel Ge-ann Manansala";
         String school = "PUP Sta. Mesa";
         String studentStatus = "2nd Year Student";
 
-        // Primitive type variables
+       
         int age = 19;
         double height = 5.2;
         char initial = 'J';
         boolean isStudent = true;
 
-        // Display personal profile
+       
         System.out.println("===== PERSONAL PROFILE =====");
         System.out.println("Full Name: " + fullName);
         System.out.println("Age: " + age);
@@ -25,3 +23,4 @@ public class Main {
         System.out.println("Currently Enrolled: " + isStudent);
     }
 }
+  
